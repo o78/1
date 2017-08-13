@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html> 
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">.
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+<meta charset="UTF-8"> 
+	<title>flRu</title>
+ 
+</head>
+
+<body>
+	<div id="containerBody">
+		<p id="rass">Рассчитайте свою выгоду</p>
+		<form>
+		<p  id="a1" class="">Стоимость установки ₸<input type="text" id="n1" onkeyup="changeValues();" autocomplete="off" placeholder="150000" onfocus="this.placeholder = ''; document.getElementById('a1').className = 'podcherkivanie'" onblur="this.placeholder = '150000'; document.getElementById('a1').className = ''"></p>
+		<p  id="a2" class="">Цена бензина ₸<input type="text" id="n2" onkeyup="changeValues();" autocomplete="off"   placeholder="142" onfocus="this.placeholder = ''; document.getElementById('a2').className = 'podcherkivanie'" onblur="this.placeholder = '142'; document.getElementById('a2').className = ''"></p>
+		<p  id="a3" class="">Цена газа ₸<input type="text" id="n3" onkeyup="changeValues();" autocomplete="off"   placeholder="65" onfocus="this.placeholder = ''; document.getElementById('a3').className = 'podcherkivanie'" onblur="this.placeholder = '65'; document.getElementById('a3').className = ''"></p>
+		<p  id="a4" class="">Расход на 100 км (л)<input type="text" id="n4" onkeyup="changeValues();" autocomplete="off"   placeholder="13" onfocus="this.placeholder = ''; document.getElementById('a4').className = 'podcherkivanie'" onblur="this.placeholder = '13'; document.getElementById('a4').className = ''"></p>
+		<p  id="a5" class="">Суточный пробег (км) <input type="text" id="n5" onkeyup="changeValues();" autocomplete="off"  placeholder="80" onfocus="this.placeholder = ''; document.getElementById('a5').className = 'podcherkivanie'" onblur="this.placeholder = '80'; document.getElementById('a5').className = ''"></p>
+		</form>
+		<hr> 
+		<div id="r1">801</div><span id="about1">За год ₸</span> <div id="r2">292365</div><span id="about2">За день ₸</span><div id="r3">187</div> <span id="about3">Окупаемость(дней)</span>
+		 </div> 
+<script type="text/javascript" src="js.js"></script>
+		 
+</body>
+
+</html>
