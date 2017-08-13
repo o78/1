@@ -11,4 +11,9 @@
 			    document.getElementById("r1").innerHTML = r1;
 			    document.getElementById("r2").innerHTML = r2;
 			    document.getElementById("r3").innerHTML = r3; }
+			  else {
+				    document.getElementById("r1").innerHTML = '0';
+			    document.getElementById("r2").innerHTML = '0';
+			    document.getElementById("r3").innerHTML = '0';
+				  }
 			  } 
